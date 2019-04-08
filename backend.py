@@ -26,7 +26,7 @@ while True:
         time.sleep(0.5)
         continue
 
-    logging.info("Counting down bugs from %s", start)
+    logging.info("Counting down features from %s", start)
     lines = []
     for i in range(start, 0, -1):
         lines.append("%s little bugs in the code. "
